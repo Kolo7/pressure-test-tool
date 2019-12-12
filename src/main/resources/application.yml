@@ -1,0 +1,9 @@
+adti-addiction:
+  request-url: http://localhost
+  port: 8080
+  # 不用加'/'
+  loginParameter: login
+  payParameter: pay
+  key:
+  loginJsonKey:
+  payJsonKey:
