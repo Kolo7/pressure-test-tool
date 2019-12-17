@@ -47,7 +47,7 @@ public class DeskLoader implements CommandLineRunner {
         String port = cmd.getOptionValue("port");
         String url = cmd.getOptionValue("url");
         Random random = new Random();
-        int num = random.nextInt(100);
+        int num = random.nextInt(1);
         String file = opt + num + ".json";
         InputStream inputStream = new ClassPathResource(file).getInputStream();
         if (opt.equals("login")){

@@ -13,4 +13,4 @@ task:
     carePollSize: 20
     maxPoolSize: 750
     keepAliveSeconds: 3000
-    queueCapacity: 50
+    queueCapacity: 500
