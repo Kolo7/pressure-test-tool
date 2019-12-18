@@ -11,6 +11,6 @@ adti-addiction:
 task:
   pool:
     carePollSize: 20
-    maxPoolSize: 750
+    maxPoolSize: 20
     keepAliveSeconds: 3000
-    queueCapacity: 500
+    queueCapacity: 40
